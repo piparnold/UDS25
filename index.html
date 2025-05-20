@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Purple & Pink Dog Coding Page</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0aaff 0%, #ffb6d5 100%);
+      color: #4b006e;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    header {
+      background: #a259c6;
+      color: #fff;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+      border-bottom: 4px solid #ffb6d5;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    .dog-img {
+      display: block;
+      margin: 2rem auto 1rem auto;
+      width: 160px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 16px rgba(162,89,198,0.2);
+    }
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.8);
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(162,89,198,0.1);
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    h2 {
+      color: #a259c6;
+      margin-top: 0;
+    }
+    pre {
+      background: #f8e1ff;
+      color: #4b006e;
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      overflow-x: auto;
+      border-left: 4px solid #ffb6d5;
+      margin-bottom: 1.5rem;
+    }
+    .paw {
+      font-size: 2rem;
+      color: #ffb6d5;
+      margin-right: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #fff;
+      background: #a259c6;
+      border-top: 4px solid #ffb6d5;
+      margin-top: 2rem;
+    }
+    @media (max-width: 650px) {
+      main {
+        padding: 1rem;
+        margin-top: 1rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐾 Code & Canines 🐾</h1>
+    <p>Where purple, pink, dogs, and code come together!</p>
+  </header>
+  <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=facearea&w=400&h=400&facepad=2" alt="Cute Dog" class="dog-img">
+  <main>
+    <h2><span class="paw">🐶</span>About This Page</h2>
+    <p>This page celebrates two of our favorite things: <strong>dogs</strong> and <strong>coding</strong>, all wrapped up in a purple and pink theme!</p>
+    <h2><span class="paw">💻</span>Sample Dog-Themed R (tidyverse) Code</h2>
+    <pre>
+library(tidyverse)
+
+dogs &lt;- tibble(
+  name = c("Bella", "Charlie", "Luna", "Max"),
+  breed = c("Labrador", "Poodle", "Beagle", "Bulldog"),
+  treats = c(5, 8, 3, 6)
+)
+
+dogs %&gt;%
+  filter(treats &gt; 4) %&gt;%
+  arrange(desc(treats))
+    </pre>
+    <h2><span class="paw">🐾</span>Fun Fact</h2>
+    <p>Did you know? Many programmers love working with their dogs by their side. Dogs make great coding buddies!</p>
+  </main>
+  <footer>
+    &copy; 2025 Code & Canines. Made with <span class="paw">💜</span> and <span class="paw">💗</span>
+  </footer>
+</body>
+</html>
 
